@@ -145,7 +145,6 @@
 				6C97AB639B58BBB4B15BBE30 /* Pods-Challenge-ChallengeTests.debug.xcconfig */,
 				1D0AE47A65C8663E3B452821 /* Pods-Challenge-ChallengeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -496,6 +495,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PODS_TARGET_SRCROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Challenge;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -521,6 +521,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PODS_TARGET_SRCROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Challenge;
 				SWIFT_VERSION = 5.0;
